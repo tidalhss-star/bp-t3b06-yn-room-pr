@@ -1,202 +1,200 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-raw-concrete">
-    <meta name="description" content="연남 룸싸롱 가격? 정보는 여기서 끝. 연남동 No.1 룸싸롱의 모든 것. 전화 010-6279-0862. 형님들 여기 진짜다.">
-    <meta name="keywords" content="연남 룸싸롱, 연남 룸싸롱 가격, 연남동 룸싸롱, 룸싸롱 추천, 연남 가성비 룸싸롱, 연남 술집, 연남 룸싸롱 정보">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://yeonnam-room-tip.link-hub.org/about.html">
-    <meta property="og:title" content="연남 룸싸롱 가격 | 연남동 No.1 룸싸롱 - 정보">
-    <meta property="og:description" content="연남 룸싸롱 가격? 정보는 여기서 끝. 연남동 No.1 룸싸롱의 모든 것. 전화 010-6279-0862. 형님들 여기 진짜다.">
-    <title>연남 룸싸롱 가격 | 연남동 No.1 룸싸롱 - 정보</title>
-    <!-- 
-    CSS 핵심은 그대로 유지 (생략)
-    -->
-    <style>
-        /* ===== RESET & GLOBAL ===== */
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        html { font-size: 16px; scroll-behavior: smooth; }
-        body { font-family: 'Courier New', Courier, monospace; background: #1a1a1a; color: #e0e0e0; line-height: 1.6; }
-        /* ===== TYPOGRAPHY ===== */
-        h1 { font-size: 2.5rem; font-weight: 900; text-transform: uppercase; letter-spacing: -0.02em; color: #f0c040; margin-bottom: 1rem; }
-        h2 { font-size: 2rem; font-weight: 800; text-transform: uppercase; border-left: 6px solid #f0c040; padding-left: 1rem; margin-bottom: 1.5rem; color: #f0c040; }
-        h3 { font-size: 1.5rem; font-weight: 700; margin-bottom: 0.75rem; color: #f0c040; }
-        p, li, blockquote { font-size: 1rem; margin-bottom: 1rem; color: #c0c0c0; }
-        a { color: #f0c040; text-decoration: underline; text-underline-offset: 4px; }
-        a:hover { color: #ffd966; }
-        strong, em { color: #ffffff; }
-        /* ===== LAYOUT ===== */
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
-        section { padding: 3rem 0; border-bottom: 2px solid #333; }
-        header { background: #0d0d0d; padding: 1.5rem 0; border-bottom: 4px solid #f0c040; }
-        footer { background: #0d0d0d; padding: 2rem 0; text-align: center; border-top: 4px solid #f0c040; margin-top: 2rem; }
-        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
-        .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2rem; }
-        /* ===== NAV ===== */
-        nav { display: flex; justify-content: space-between; align-items: center; }
-        nav .logo { font-size: 1.75rem; font-weight: 900; color: #f0c040; text-transform: uppercase; text-decoration: none; }
-        nav ul { list-style: none; display: flex; gap: 1.5rem; }
-        nav ul li a { font-size: 1rem; font-weight: 600; text-transform: uppercase; color: #e0e0e0; text-decoration: none; padding: 0.5rem 0; border-bottom: 2px solid transparent; transition: 0.2s; }
-        nav ul li a:hover { border-bottom-color: #f0c040; }
-        /* ===== HERO ===== */
-        .hero { min-height: 60vh; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; background: linear-gradient(145deg, #1a1a1a 0%, #2a2a2a 100%); }
-        .hero h1 { font-size: 3.5rem; line-height: 1.1; color: #f0c040; }
-        .hero p { font-size: 1.25rem; max-width: 600px; }
-        /* ===== CARD ===== */
-        .card { background: #222; border: 2px solid #333; padding: 2rem; margin-bottom: 2rem; transition: 0.2s; }
-        .card:hover { border-color: #f0c040; }
-        .card h3 { margin-top: 0; }
-        /* ===== BUTTON ===== */
-        .btn { display: inline-block; background: #f0c040; color: #1a1a1a; padding: 0.75rem 2rem; font-weight: 800; text-transform: uppercase; text-decoration: none; border: none; cursor: pointer; transition: 0.2s; }
-        .btn:hover { background: #ffd966; transform: scale(1.02); }
-        /* ===== TEL LINK ===== */
-        .tel-link { display: inline-block; font-size: 2rem; font-weight: 900; color: #f0c040; text-decoration: none; border: 3px solid #f0c040; padding: 0.5rem 1.5rem; margin: 1rem 0; }
-        .tel-link:hover { background: #f0c040; color: #1a1a1a; }
-        /* ===== FAQ ===== */
-        .faq-item { border-bottom: 1px solid #333; padding: 1.5rem 0; }
-        .faq-item h3 { cursor: pointer; }
-        .faq-item p { margin-top: 0.5rem; }
-        /* ===== RESPONSIVE ===== */
-        @media (max-width: 768px) {
-            .grid-2, .grid-3 { grid-template-columns: 1fr; }
-            nav ul { display: none; }
-            .hamburger-menu { display: block; }
-            .hero h1 { font-size: 2.5rem; }
-        }
-        /* ===== HAMBURGER ===== */
-        .hamburger-menu { display: none; cursor: pointer; }
-        .hamburger-menu span { display: block; width: 30px; height: 3px; background: #f0c040; margin: 6px 0; transition: 0.3s; }
-        /* ===== NAV PRESENT ===== */
-        nav-present { display: flex; }
-    </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+ <meta name="description" content="연남 룸싸롱 가격? 정보는 여기서 끝. 연남동 No.1 룸싸롱의 모든 것. 형님들 여기 진짜다.">
+ <meta name="keywords" content="연남 룸싸롱, 연남 룸싸롱 가격, 연남동 룸싸롱, 룸싸롱 추천, 연남 가성비 룸싸롱, 연남 술집, 연남 룸싸롱 정보">
+ <meta name="robots" content="index, follow">
+ <link rel="canonical" href="https://yeonnam-room-tip.link-hub.org/about.html">
+ <meta property="og:title" content="연남 룸싸롱 가격 | 연남동 No.1 룸싸롱 - 정보">
+ <meta property="og:description" content="연남 룸싸롱 가격? 정보는 여기서 끝. 연남동 No.1 룸싸롱의 모든 것. 형님들 여기 진짜다.">
+ <title>연남 룸싸롱 가격 | 연남동 No.1 룸싸롱 - 정보</title>
+ <!-- 
+ CSS 핵심은 그대로 유지 (생략)
+ -->
+ <style>
+ /* ===== RESET & GLOBAL ===== */
+ * { margin: 0; padding: 0; box-sizing: border-box; }
+ html { font-size: 16px; scroll-behavior: smooth; }
+ body { font-family: 'Courier New', Courier, monospace; background: #1a1a1a; color: #e0e0e0; line-height: 1.6; }
+ /* ===== TYPOGRAPHY ===== */
+ h1 { font-size: 2.5rem; font-weight: 900; text-transform: uppercase; letter-spacing: -0.02em; color: #f0c040; margin-bottom: 1rem; }
+ h2 { font-size: 2rem; font-weight: 800; text-transform: uppercase; border-left: 6px solid #f0c040; padding-left: 1rem; margin-bottom: 1.5rem; color: #f0c040; }
+ h3 { font-size: 1.5rem; font-weight: 700; margin-bottom: 0.75rem; color: #f0c040; }
+ p, li, blockquote { font-size: 1rem; margin-bottom: 1rem; color: #c0c0c0; }
+ a { color: #f0c040; text-decoration: underline; text-underline-offset: 4px; }
+ a:hover { color: #ffd966; }
+ strong, em { color: #ffffff; }
+ /* ===== LAYOUT ===== */
+ .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+ section { padding: 3rem 0; border-bottom: 2px solid #333; }
+ header { background: #0d0d0d; padding: 1.5rem 0; border-bottom: 4px solid #f0c040; }
+ footer { background: #0d0d0d; padding: 2rem 0; text-align: center; border-top: 4px solid #f0c040; margin-top: 2rem; }
+ .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+ .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2rem; }
+ /* ===== NAV ===== */
+ nav { display: flex; justify-content: space-between; align-items: center; }
+ nav .logo { font-size: 1.75rem; font-weight: 900; color: #f0c040; text-transform: uppercase; text-decoration: none; }
+ nav ul { list-style: none; display: flex; gap: 1.5rem; }
+ nav ul li a { font-size: 1rem; font-weight: 600; text-transform: uppercase; color: #e0e0e0; text-decoration: none; padding: 0.5rem 0; border-bottom: 2px solid transparent; transition: 0.2s; }
+ nav ul li a:hover { border-bottom-color: #f0c040; }
+ /* ===== HERO ===== */
+ .hero { min-height: 60vh; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; background: linear-gradient(145deg, #1a1a1a 0%, #2a2a2a 100%); }
+ .hero h1 { font-size: 3.5rem; line-height: 1.1; color: #f0c040; }
+ .hero p { font-size: 1.25rem; max-width: 600px; }
+ /* ===== CARD ===== */
+ .card { background: #222; border: 2px solid #333; padding: 2rem; margin-bottom: 2rem; transition: 0.2s; }
+ .card:hover { border-color: #f0c040; }
+ .card h3 { margin-top: 0; }
+ /* ===== BUTTON ===== */
+ .btn { display: inline-block; background: #f0c040; color: #1a1a1a; padding: 0.75rem 2rem; font-weight: 800; text-transform: uppercase; text-decoration: none; border: none; cursor: pointer; transition: 0.2s; }
+ .btn:hover { background: #ffd966; transform: scale(1.02); }
+ /* ===== TEL LINK ===== */
+ .tel-link { display: inline-block; font-size: 2rem; font-weight: 900; color: #f0c040; text-decoration: none; border: 3px solid #f0c040; padding: 0.5rem 1.5rem; margin: 1rem 0; }
+ .tel-link:hover { background: #f0c040; color: #1a1a1a; }
+ /* ===== FAQ ===== */
+ .faq-item { border-bottom: 1px solid #333; padding: 1.5rem 0; }
+ .faq-item h3 { cursor: pointer; }
+ .faq-item p { margin-top: 0.5rem; }
+ /* ===== RESPONSIVE ===== */
+ @media (max-width: 768px) {
+ .grid-2, .grid-3 { grid-template-columns: 1fr; }
+ nav ul { display: none; }
+ .hamburger-menu { display: block; }
+ .hero h1 { font-size: 2.5rem; }
+ }
+ /* ===== HAMBURGER ===== */
+ .hamburger-menu { display: none; cursor: pointer; }
+ .hamburger-menu span { display: block; width: 30px; height: 3px; background: #f0c040; margin: 6px 0; transition: 0.3s; }
+ /* ===== NAV PRESENT ===== */
+ nav-present { display: flex; }
+ </style>
   <meta property="og:url" content="https://yeonnam-room-tip.link-hub.org/about.html">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <a href="/" class="logo">연남No.1</a>
-                <ul>
-                    <li><a href="/">홈</a></li>
-                    <li><a href="/info">정보</a></li>
-                    <li><a href="/price">가격</a></li>
-                    <li><a href="/review">후기</a></li>
-                    <li><a href="/contact">연락</a></li>
-                </ul>
-                <div class="hamburger-menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </nav>
-        </div>
-    </header>
+ <header>
+ <div class="container">
+ <nav>
+ <a href="/" class="logo">연남No.1</a>
+ <ul>
+ <li><a href="/">홈</a></li>
+ <li><a href="/info">정보</a></li>
+ <li><a href="/price">가격</a></li>
+ <li><a href="/review">후기</a></li>
+ <li><a href="/contact">연락</a></li>
+ </ul>
+ <div class="hamburger-menu">
+ 
+ 
+ 
+ </div>
+ </nav>
+ </div>
+ </header>
 
-    <section class="hero">
-        <div class="container">
-            <h1>연남 룸싸롱 가격<br>정보는 여기서 끝</h1>
-            <p>형님들, 연남동에서 진짜 끝판왕 룸싸롱 정보 공개한다. 가격? 서비스? 위치? 다 여기 있다. 010-6279-0862로 바로 문의.</p>
-            <a href="tel:010-6279-0862" class="tel-link">010-6279-0862</a>
-        </div>
-    </section>
+ <section class="hero">
+ <div class="container">
+ <h1>연남 룸싸롱 가격<br>정보는 여기서 끝</h1>
+ <p>형님들, 연남동에서 진짜 끝판왕 룸싸롱 정보 공개한다. 가격? 서비스? 위치? 다 여기 있다.</p>
+ 
+ </div>
+ </section>
 
-    <section>
-        <div class="container">
-            <h2>왜 우리인가?</h2>
-            <div class="grid-2">
-                <div class="card">
-                    <h3>파격적인 가격</h3>
-                    <p>연남 룸싸롱 가격? 여기가 진짜 가성비 끝판왕. 다른 데 반값에 최상급 서비스. 형님들 한 번 오면 다른 데 못 간다.</p>
-                </div>
-                <div class="card">
-                    <h3>프리미엄 서비스</h3>
-                    <p>매니저 교육 수준이 다르다. 친절함과 프로페셔널함을 동시에. VIP 대접은 기본, 우리는 형님을 가족처럼 모신다.</p>
-                </div>
-                <div class="card">
-                    <h3>최고의 위치</h3>
-                    <p>연남동 중심, 교통 편리. 주차 완벽 지원. 들어오는 순간부터 나갈 때까지 모든 게 편하다.</p>
-                </div>
-                <div class="card">
-                    <h3>프라이빗한 공간</h3>
-                    <p>각 룸마다 방음 완벽, 최신 시설. 비즈니스 미팅부터 친구 모임까지, 우리만의 공간을 즐겨라.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+ <section>
+ <div class="container">
+ <h2>왜 우리인가?</h2>
+ <div class="grid-2">
+ <div class="card">
+ <h3>파격적인 가격</h3>
+ <p>연남 룸싸롱 가격? 여기가 진짜 가성비 끝판왕. 다른 데 반값에 최상급 서비스. 형님들 한 번 오면 다른 데 못 간다.</p>
+ </div>
+ <div class="card">
+ <h3>프리미엄 서비스</h3>
+ <p>매니저 교육 수준이 다르다. 친절함과 프로페셔널함을 동시에. VIP 대접은 기본, 우리는 형님을 가족처럼 모신다.</p>
+ </div>
+ <div class="card">
+ <h3>최고의 위치</h3>
+ <p>연남동 중심, 교통 편리. 주차 완벽 지원. 들어오는 순간부터 나갈 때까지 모든 게 편하다.</p>
+ </div>
+ <div class="card">
+ <h3>프라이빗한 공간</h3>
+ <p>각 룸마다 방음 완벽, 최신 시설. 비즈니스 미팅부터 친구 모임까지, 우리만의 공간을 즐겨라.</p>
+ </div>
+ </div>
+ </div>
+ </section>
 
-    <section>
-        <div class="container">
-            <h2>연남 룸싸롱 가격 상세</h2>
-            <div class="grid-2">
-                <div>
-                    <h3>기본 이용료</h3>
-                    <ul>
-                        <li>주중 (월-목): 1인 15만원부터</li>
-                        <li>주말 (금-일): 1인 20만원부터</li>
-                        <li>최소 인원: 2인 (혼자 오면 우리가 맞춰준다)</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>추가 옵션</h3>
-                    <ul>
-                        <li>VIP 룸: +5만원 (최상위 서비스)</li>
-                        <li>생일/기념일 패키지: +3만원 (케이크 무료)</li>
-                        <li>주차 무료 (발렛 서비스 포함)</li>
-                    </ul>
-                </div>
-            </div>
-            <p style="margin-top: 2rem; font-weight: bold;">※ 가격은 변동될 수 있으니 전화로 확인하세요. 010-6279-0862</p>
-        </div>
-    </section>
+ <section>
+ <div class="container">
+ <h2>연남 룸싸롱 가격 상세</h2>
+ <div class="grid-2">
+ <div>
+ <h3>기본 이용료</h3>
+ <ul>
+ <li>주중 (월-목): 1인 15만원부터</li>
+ <li>주말 (금-일): 1인 20만원부터</li>
+ <li>최소 인원: 2인 (혼자 오면 우리가 맞춰준다)</li>
+ </ul>
+ </div>
+ <div>
+ <h3>추가 옵션</h3>
+ <ul>
+ <li>VIP 룸: +5만원 (최상위 서비스)</li>
+ <li>생일/기념일 패키지: +3만원 (케이크 무료)</li>
+ <li>주차 무료 (발렛 서비스 포함)</li>
+ </ul>
+ </div>
+ </div>
+ <p style="margin-top: 2rem; font-weight: bold;">※ 가격은 변동될 수 있으니 전화로 확인하세요.</p>
+ </div>
+ </section>
 
-    <section>
-        <div class="container">
-            <h2>자주 묻는 질문</h2>
-            <div class="faq-item">
-                <h3>예약은 어떻게 하나요?</h3>
-                <p>전화 010-6279-0862로 바로 예약 가능합니다. 문자나 카톡도 환영.</p>
-            </div>
-            <div class="faq-item">
-                <h3>처음 가도 괜찮나요?</h3>
-                <p>당연하죠. 형님 처음 오는 분들 위한 시스템 완벽 준비. 눈치 볼 필요 없습니다.</p>
-            </div>
-            <div class="faq-item">
-                <h3>단체 이용 가능한가요?</h3>
-                <p>최대 20인까지 수용 가능. 회식, 접대, 모임 모두 오케이. 단체 할인도 있습니다.</p>
-            </div>
-            <div class="faq-item">
-                <h3>주차는 어떻게 되나요?</h3>
-                <p>건물 전용 주차장 완비. 발렛 서비스도 무료. 차량 번호만 알려주세요.</p>
-            </div>
-        </div>
-    </section>
+ <section>
+ <div class="container">
+ <h2>자주 묻는 질문</h2>
+ <div class="faq-item">
+ <h3>예약은 어떻게 하나요?</h3>
+ <p>문자나 카톡도 환영.</p>
+ </div>
+ <div class="faq-item">
+ <h3>처음 가도 괜찮나요?</h3>
+ <p>당연하죠. 형님 처음 오는 분들 위한 시스템 완벽 준비. 눈치 볼 필요 없습니다.</p>
+ </div>
+ <div class="faq-item">
+ <h3>단체 이용 가능한가요?</h3>
+ <p>최대 20인까지 수용 가능. 회식, 접대, 모임 모두 오케이. 단체 할인도 있습니다.</p>
+ </div>
+ <div class="faq-item">
+ <h3>주차는 어떻게 되나요?</h3>
+ <p>건물 전용 주차장 완비. 발렛 서비스도 무료. 차량 번호만 알려주세요.</p>
+ </div>
+ </div>
+ </section>
 
-    <section>
-        <div class="container">
-            <h2>연남동 룸싸롱, 지금 바로 확인</h2>
-            <div class="grid-2">
-                <div class="card">
-                    <h3>전화 한 통이면 끝</h3>
-                    <p>010-6279-0862. 24시간 대기. 늦은 시간도 환영. 형님 편한 시간에 연락주세요.</p>
-                </div>
-                <div class="card">
-                    <h3>위치 &amp; 오시는 길</h3>
-                    <p>연남동 123-45 (구체적 주소는 전화 시 안내). 지하철 연남역 2번 출구 도보 3분.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+ <section>
+ <div class="container">
+ <h2>연남동 룸싸롱, 지금 바로 확인</h2>
+ <div class="grid-2">
+ <div class="card">
+ <h3>전화 한 통이면 끝</h3>
+ <p>24시간 대기. 늦은 시간도 환영. 형님 편한 시간에 연락주세요.</p>
+ </div>
+ <div class="card">
+ <h3>위치 &amp; 오시는 길</h3>
+ <p>연남동 123-45 (구체적 주소는 전화 시 안내). 지하철 연남역 2번 출구 도보 3분.</p>
+ </div>
+ </div>
+ </div>
+ </section>
 
-    <footer>
-        <div class="container">
-            <p>연남 룸싸롱 | 전화 <a href="tel:010-6279-0862">010-6279-0862</a> | 연남동 No.1</p>
-            <p style="font-size: 0.8rem; color: #666;">&copy; 2025 연남No.1. All rights reserved.</p>
-        </div>
-    </footer>
+ <footer>
+ <div class="container">
+ <p>연남 룸싸롱 | 전화 | 연남동 No.1</p>
+ <p style="font-size: 0.8rem; color: #666;">&copy; 2025 연남No.1. All rights reserved.</p>
+ </div>
+ </footer>
 </body>
 </html>
